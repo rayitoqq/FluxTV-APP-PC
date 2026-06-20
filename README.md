@@ -1,101 +1,83 @@
-# FluxTV
+<div align="center">
+  <img src="assets/logo.ico" width="80" alt="FluxTV Logo" />
+  <h1>FluxTV</h1>
+  <p><strong>TV en vivo, Radio y Música — Todo en un solo lugar</strong></p>
+  <p>
+    <a href="https://github.com/tuusuario/fluxtv/releases">
+      <img src="https://img.shields.io/badge/descargar-v2.1.0-blue?style=for-the-badge" alt="Descargar" />
+    </a>
+    <img src="https://img.shields.io/badge/plataforma-Windows_10|11-0078d4?style=for-the-badge" alt="Windows" />
+    <img src="https://img.shields.io/badge/idiomas-ES|EN|PT|FR-green?style=for-the-badge" alt="Idiomas" />
+  </p>
+</div>
 
-**FluxTV** es una aplicación de escritorio para ver TV en vivo, escuchar radio y reproducir música desde YouTube, todo en un solo lugar. Construida con Electron, React y Vite.
+---
 
-## Características
+## ✨ Características
 
-- **TV en vivo** — Navega y reproduce canales de TV desde listas IPTV
-- **Radio online** — Escucha estaciones de radio de todo el mundo
-- **YouTube** — Busca y reproduce videos musicales
+- **TV en vivo** — Miles de canales IPTV organizados por país y categoría
+- **Radio online** — Estaciones de radio de todo el mundo
+- **YouTube Music** — Busca y reproduce videos musicales
 - **Multi-idioma** — Interfaz en español, inglés, portugués y francés
-- **Temas claro/oscuro** — Cambia entre tema oscuro y claro
-- **Búsqueda global** — Encuentra canales y estaciones al instante
-- **Modo cine** — Maximiza el reproductor de video
-- **Pantalla completa (F11)** — Experiencia inmersiva con overlay de información
-- **Notificaciones de escritorio** — Recibe alertas al cambiar de canal
-- **Equalizador** — Presets de audio para la radio
-- **Temporizador de sueño** — Apagado automático programado
-- **Atajos de teclado** — Navegación rápida sin mouse
-- **Teclas multimedia** — Soporte para controles de reproducción del sistema
+- **Temas claro/oscuro** — Elige el que más te guste
+- **Búsqueda global** — Encuentra cualquier canal o estación al instante (`Ctrl+F`)
+- **Modo cine** — Maximiza el reproductor para una experiencia inmersiva
+- **Pantalla completa** — Modo F11 con overlay de información del canal
+- **Equalizador de audio** — Presets predefinidos para la radio
+- **Temporizador de sueño** — Programa el apagado automático
+- **Notificaciones** — Te avisa al cambiar de canal
+- **Teclas multimedia** — Controla la reproducción desde tu teclado
+- **Atajos de teclado** — Navega sin usar el mouse
 
-## Requisitos
+## 📸 Capturas
 
-- Windows 10/11 (64-bit)
-- 2 GB RAM mínimo
-- Conexión a internet
+*(Aquí van las capturas de pantalla)*
 
-## Instalación
+## 📥 Descargar
 
-### Versión compilada (Windows)
+| Versión | Archivo | Descripción |
+|---|---|---|
+| **Instalador** | `FluxTV-2.1.0-x64.exe` | Instalación completa con acceso directo |
+| **Portátil** | `FluxTV-Portable-2.1.0.exe` | No requiere instalación, listo para usar |
 
-Descarga el instalador o la versión portable desde la carpeta `release/`:
+Descarga la última versión desde la [página de releases](https://github.com/tuusuario/fluxtv/releases).
 
-- `FluxTV-2.1.0-x64.exe` — Instalador (recomendado)
-- `FluxTV-Portable-2.1.0.exe` — Versión portable (no requiere instalación)
+## 🚀 Cómo usar
 
-### Desarrollo
+1. Descarga el instalador o la versión portátil
+2. Ejecuta el archivo
+3. La app cargará automáticamente los canales de TV y radio
+4. Usa las pestañas superiores para alternar entre TV, Radio y YouTube
+5. Filtra por país o categoría desde la barra lateral
 
-```bash
-# Clonar el repositorio
-git clone <url-del-repo>
-cd fluxtv
+## 🌐 Idiomas
 
-# Instalar dependencias
-npm install
+FluxTV viene con soporte para múltiples idiomas. Puedes cambiar el idioma desde el panel de configuración (`Ctrl+,`).
 
-# Iniciar en modo desarrollo
-npm run electron:dev
+- Español
+- English
+- Português
+- Français
 
-# Compilar para producción
-npm run electron:build
-```
-
-## Uso
-
-Al abrir la app, FluxTV cargará automáticamente los canales de TV y radio desde la API pública de IPTV. Usa las pestañas superiores para alternar entre TV y radio. La barra lateral permite filtrar por país o categoría.
-
-### Atajos de teclado
+## ⌨️ Atajos de teclado
 
 | Tecla | Acción |
 |---|---|
 | `F11` | Pantalla completa |
-| `Ctrl + F` / `Cmd + F` | Búsqueda global |
-| `Ctrl + ,` | Abrir configuración |
-| `Ctrl + R` | Recargar canales |
+| `Ctrl+F` | Búsqueda global |
+| `Ctrl+,` | Abrir configuración |
+| `Ctrl+R` | Recargar canales |
 | `Esc` | Salir de pantalla completa / cerrar modal |
-| `Flechas` | Navegar entre canales |
+| `Flechas ← →` | Navegar entre canales |
 | `Enter` | Seleccionar canal |
-| `Media keys` | Play/Pause, Siguiente, Anterior |
+| `Media Play/Pause` | Reproducir / Pausar |
 
-## Configuración del proyecto
+## 🔧 Requisitos del sistema
 
-```
-fluxtv/
-├── electron/          # Proceso principal de Electron
-│   ├── main.js        # Ventana, IPC, teclas multimedia
-│   └── preload.js     # Puente de comunicación seguro
-├── src/               # Código fuente (React)
-│   ├── components/    # Componentes de la UI
-│   ├── hooks/         # Hooks personalizados
-│   ├── i18n/          # Sistema de traducciones
-│   ├── services/      # Servicios (IPTV, radio, YouTube)
-│   └── stores/        # Estado global (Zustand)
-├── index.html         # Punto de entrada HTML
-├── vite.config.js     # Configuración de Vite
-└── package.json       # Dependencias y scripts
-```
+- Windows 10 u 11 (64-bit)
+- 2 GB de RAM
+- Conexión a internet
 
-## Stack tecnológico
+## 📄 Licencia
 
-- **Electron 29** — Marco de aplicación de escritorio
-- **React 18** — Librería de UI
-- **Vite 5** — Bundler y dev server
-- **Zustand** — Manejo de estado
-- **Tailwind CSS** — Estilos
-- **HLS.js** — Reproducción de video HLS
-- **Howler.js** — Reproducción de audio
-- **@phosphor-icons/react** — Íconos
-
-## Licencia
-
-Copyright © 2024 FluxTV
+Copyright © 2024 FluxTV. Todos los derechos reservados.
