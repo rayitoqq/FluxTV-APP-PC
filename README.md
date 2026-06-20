@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://i.ibb.co/4Z4CRPCF/logo.jpg" width="80" alt="FluxTV Logo" />
   <h1>FluxTV</h1>
-  <p><strong>TV en vivo, Radio y Música — Todo en un solo lugar</strong></p>
+  <p><strong>TV en vivo Y Radio — Todo en un solo lugar</strong></p>
   <p>
     <a href="https://github.com/rayitoqq/FluxTV-APP-PC/releases">
       <img src="https://img.shields.io/badge/descargar-v2.1.0-blue?style=for-the-badge" alt="Descargar" />
