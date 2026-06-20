@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.ico" width="80" alt="FluxTV Logo" />
+  <img src="https://i.ibb.co/4Z4CRPCF/logo.jpg" width="80" alt="FluxTV Logo" />
   <h1>FluxTV</h1>
   <p><strong>TV en vivo, Radio y Música — Todo en un solo lugar</strong></p>
   <p>
