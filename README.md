@@ -3,7 +3,7 @@
   <h1>FluxTV</h1>
   <p><strong>TV en vivo, Radio y Música — Todo en un solo lugar</strong></p>
   <p>
-    <a href="https://github.com/tuusuario/fluxtv/releases">
+    <a href="https://github.com/rayitoqq/FluxTV-APP-PC/releases">
       <img src="https://img.shields.io/badge/descargar-v2.1.0-blue?style=for-the-badge" alt="Descargar" />
     </a>
     <img src="https://img.shields.io/badge/plataforma-Windows_10|11-0078d4?style=for-the-badge" alt="Windows" />
@@ -40,7 +40,7 @@
 | **Instalador** | `FluxTV-2.1.0-x64.exe` | Instalación completa con acceso directo |
 | **Portátil** | `FluxTV-Portable-2.1.0.exe` | No requiere instalación, listo para usar |
 
-Descarga la última versión desde la [página de releases](https://github.com/tuusuario/fluxtv/releases).
+Descarga la última versión desde la [página de releases](https://github.com/rayitoqq/FluxTV-APP-PC/releases).
 
 ## 🚀 Cómo usar
 
@@ -80,4 +80,4 @@ FluxTV viene con soporte para múltiples idiomas. Puedes cambiar el idioma desde
 
 ## 📄 Licencia
 
-Copyright © 2024 FluxTV. Todos los derechos reservados.
+Copyright © 2026 FluxTV. Todos los derechos reservados.
